@@ -3,30 +3,47 @@
     src: url(../fonts/Alpengeist_JF_TheFontsMaster.com.otf);
 }
 body {
-    background-image: url(../images/bg.jpg);
+    /*
+    background-image: url(../images/bg.jpg);*/
+    background-color: #71eeb8;
     background-position: center;
     background-size: auto;
     padding-top: 5rem;
+    color: white;
+    font-size: 13pt;
+    /*
     color: #ffae42;
+    */
 }
+
+img.round{
+    border-radius: 4.5em;
+}
+
 .starter-template {
-    padding: 3rem 1.5rem;
+    padding: 1rem;
     margin-top: 5em;
     text-align: center;
     background-color: grey;
     margin-bottom: 5em;
+    border-radius: 1em;
 }
 header{
     text-align: center;
-    font-family: 'Alpengeist';
-    background-color: rgba(128, 128, 128, .8);
+    font-family: 'Alpengeist';   
     width:100%;
-    padding: 1em 1em 1em 1em;
-    margin-right:auto;
-    margin-left:auto;
-    
-
 }
+header img{
+    padding-top: 1%;
+}
+
+.info{
+    text-align: left;
+}
+.info h3{
+    padding-left: 5%;
+}
+
 header h1{
     font-size: 62pt;
     color: white;
@@ -34,7 +51,8 @@ header h1{
 }
 header h6{
     font-size 32pt;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .navbar-brand{
     font-family: 'Alpengeist';
@@ -51,10 +69,13 @@ footer{
     position: bottom;
     padding-top: 10px;
     padding-right: 10px;
+    margin-top: auto;
 }
+/*
 .navbar-text{
     color: #ffae42;
 }
+*/
 .logo{
     font-family: 'Alpengeist';
 }
